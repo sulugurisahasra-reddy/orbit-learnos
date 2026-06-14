@@ -1,9 +1,9 @@
 function App() {
   return (
     <div>
-      <h1>Orbit LearnOS</h1>
+      <h1>Dashboard</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
