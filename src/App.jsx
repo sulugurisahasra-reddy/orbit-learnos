@@ -1,5 +1,19 @@
 function App() {
-  return <h1 style={{ color: "white" }}>ORBIT WORKING</h1>;
+  return (
+    <div
+      style={{
+        background: "black",
+        color: "white",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        fontSize: "40px",
+      }}
+    >
+      Orbit LearnOS Working 🚀
+    </div>
+  );
 }
 
 export default App;
