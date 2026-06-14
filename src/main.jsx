@@ -1,21 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css";
 
 function App() {
   return (
-    <div
-      style={{
-        color: "white",
-        background: "black",
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        fontSize: "40px",
-      }}
-    >
-      Orbit Working
-    </div>
+    <h1 style={{ color: "red", fontSize: "50px" }}>
+      ORBIT WORKING
+    </h1>
   );
 }
 
