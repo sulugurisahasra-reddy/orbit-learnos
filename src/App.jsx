@@ -1,8 +1,21 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+function Dashboard() {
+  return <h1>Dashboard</h1>;
+}
+
+function Tracker() {
+  return <h1>Tracker</h1>;
+}
+
 function App() {
   return (
-    <div>
-      <h1>Orbit LearnOS</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/tracker" element={<Tracker />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
