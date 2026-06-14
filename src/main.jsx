@@ -1,8 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-function Test() {
-  return <h1>Hello React 🚀</h1>;
+function App() {
+  return (
+    <h1 style={{ color: "white", textAlign: "center", marginTop: "200px" }}>
+      Orbit Working
+    </h1>
+  );
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Test />);
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
