@@ -9,12 +9,10 @@ function App() {
         justifyContent: "center",
         alignItems: "center",
         fontSize: "40px",
-        textAlign: "center",
       }}
     >
-      Orbit LearnOS Working 🚀
+      Orbit LearnOS
     </div>
   );
 }
 
-export default App;
